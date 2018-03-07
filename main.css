@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** { 
+  outline: 1px solid black;
+}*/
+
+#header_buttons {
+    text-align: right;
+    padding-top: 10px;
+}
+#header_buttons a:hover{text-decoration: underline;}
+#header_buttons li, a {
+    color: gray;
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+    padding: 4px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+
+#sign_in {
+    display: inline-block;
+    margin: 3px 10px;
+    border-radius: 3px;
+    background-color: #29A0F0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+li#sign_in {
+    display: block;
+    margin-bottom: 300px;
+}
+
+#sign_in:hover{box-shadow: 0px 1px 0px 0px #e6e6e6;}
+#sign_in a {
+    margin: 0 auto;
+/*        border:1px solid black;
+*/
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#sign-in-text {
+    margin-top: 20px;
+}
+/*DAMN -- This was/is CONFUSING but it sets the sign-in button properties*/
+div#header_buttons ul li#sign_in {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+/*    border: 1px solid black;
+*/    text-align: center;
+    margin-bottom: 25px;
+}
+
+#apps a {
+    width: 60px;
+    background-position: center;
+    background-image: url("images.grid.png");
+/*    border: 1px solid black;
+*/}
+
+#sign_in a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+#google_logo {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#google_logo > img{
+    display: block;
+    margin: 0 auto;
+}
+#query {
+    width: 572px;
+    margin: auto;
+}
+#query > input {
+    width:572px;
+    height:30px;
+    margin: auto;
+    background-image: url("images/microphone.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#query input[type="text"] {
+font-size: 17px;
+}
+
+.buttons {
+    width: 572px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+button#search {
+    margin-top: 10px;
+    font: bold 11px Arial, sans-serif !important;
+    width: 95px;
+    height: 30px;
+    -webkit-border-radius: 0px;
+}
+button#lucky {
+    font: bold 11px Arial, sans-serif !important;
+    width: 110px;
+    height: 30px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 15px;
+    width: 100%;
+/*    border: 1px solid black;
+*/    background-color: #e3e3e3;
+}
+
+
+
+
+#footer-left ul li{
+    float: left;
+/*    border:1px solid black;
+*/    display: inline;
+    padding: 5px 3px;
+    padding-top: 14px;
+    vertical-align: bottom;
+}
+
+
+#footer-left ul li a{
+/*        border:1px solid black;
+*/
+    padding: 30px 8px;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+#footer-right ul li
+{
+    float: right;
+    display: inline;
+    padding: 30px 8px;
+    padding-top: 14px;
+    vertical-align: bottom;
+}
+
+
+#footer-right ul li a{
+    padding: 30px 8px;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
